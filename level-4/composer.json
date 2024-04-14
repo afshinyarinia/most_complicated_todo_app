@@ -1,0 +1,29 @@
+{
+    "name": "afshinyarinia/complicated_todo_app",
+    "description": "A project with simple goal, create a todo list with increasingly complex code base . each level builds on the level before to create a more robust app",
+    "authors": [
+        {
+            "name": "Afshin Yarinia",
+            "email": "afshinyarinia@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit src",
+        "lint": "phpcs src",
+        "format": "phpcbf src",
+        "build": [
+            "@test",
+            "@lint"
+        ],
+        "deploy": "echo 'Deploying project...'"
+    }
+}

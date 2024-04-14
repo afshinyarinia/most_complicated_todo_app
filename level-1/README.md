@@ -32,6 +32,4 @@ The script creates a table named `todos` with the following schema:
 ### License
 This script is released under the MIT License. Feel free to modify and use it according to your needs.
 
-For any questions or issues, please contact [your email or support contact].
-
 Thank you for using the Todo App script! 🚀

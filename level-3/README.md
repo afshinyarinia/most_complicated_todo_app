@@ -48,6 +48,4 @@ The Level 3 refactor introduces a more structured and organized approach by util
 ### License
 This script is provided under the MIT License. Feel free to modify and use it according to your requirements.
 
-For any inquiries or support, please contact [your email or support contact].
-
 Thank you for using the Todo App script! 🚀
